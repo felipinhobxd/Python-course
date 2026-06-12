@@ -19,8 +19,8 @@ ____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
 ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 /______/______/______/______/______/______/______/______/______/______/_______/
 *******************************************************************************''')
-print("Bem vindo a caça ao tesouro maluca!")
-print("Sua missão é encontrar o tesouro!")
+print("Bem vindo a caça ao tesouro maluca!💰💰")
+print("Sua missão é encontrar o tesouro!🗺️🗺️")
 esquerda_ou_direita = input("Tem um caminho na sua frente, você quer ir para a (direita) ou (esquerda)?\n").lower()
 if esquerda_ou_direita == "esquerda":
     nadar_ou_esperar = input("Tem um rio do seu lado, você quer (nadar) ou só (esperar) algo acontecer?\n").lower()
