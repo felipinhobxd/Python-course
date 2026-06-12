@@ -21,11 +21,11 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 *******************************************************************************''')
 print("Bem vindo a caça ao tesouro maluca!")
 print("Sua missão é encontrar o tesouro!")
-esquerda_ou_direita = input("Tem um caminho na sua frente, você quer ir para a (direita) ou (esquerda)?\n")
+esquerda_ou_direita = input("Tem um caminho na sua frente, você quer ir para a (direita) ou (esquerda)?\n").lower()
 if esquerda_ou_direita == "esquerda":
-    nadar_ou_esperar = input("Tem um rio do seu lado, você quer (nadar) ou só (esperar) algo acontecer?\n")
+    nadar_ou_esperar = input("Tem um rio do seu lado, você quer (nadar) ou só (esperar) algo acontecer?\n").lower()
     if nadar_ou_esperar == "esperar":
-        qual_porta = input("Apareceu três portas magicamente na sua frente, uma (vermelha), uma (amarela) e outra (azul), qual você quer ir?\n")
+        qual_porta = input("Apareceu três portas magicamente na sua frente, uma (vermelha), uma (amarela) e outra (azul), qual você quer ir?\n").lower()
         if qual_porta == "azul":
             print("VOCÊ VENCEU PARABENS! AQUI ESTÁ SEU PREMIO:")
             print('''
