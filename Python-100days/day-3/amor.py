@@ -7,7 +7,7 @@ quantidade_somada_love = nomes_combinados.count("l") + nomes_combinados.count("o
 true_total = str(quantidade_somada_true)
 love_total = str(quantidade_somada_love)
 total_real = true_total + love_total
-if int(total_real) < 10 or int(total_real) > 90:
+if int(total_real) <= 10 or int(total_real) >= 90:
     print(f"Sua pontuação é {total_real}, vocês combinam como coca e mentos.")
 elif int(total_real) >= 40 and int(total_real) <=50:
     print(f"Sua pontuação é {total_real}, vocês dão para o gasto juntos.")
