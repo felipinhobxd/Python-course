@@ -41,8 +41,10 @@ if esquerda_ou_direita == "esquerda":
               `"""""""`''')
         elif qual_porta == "vermelha":
             print("VOCÊ ABRE E UM DEMONIO DE PUXA PARA UM FORNO A 1000°C, FIM DE JOGO!")
-        else:
+        elif qual_porta == "amarela":
             print("VOCÊ ABRE A PORTA AMARELA, E SAI UM MALUCO PELADO COM UMA PEXEIRA E TE MATA, FIM DE JOGO!")
+        else:
+            print("ESSA PORTA NÃO EXISTE BURRO!!")
     else:
         print("VOCÊ SE AFOGOU, POIS NÃO SABIA NADAR, FIM DE JOGO!")
 else:
