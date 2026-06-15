@@ -24,7 +24,7 @@ tesoura = """
 ---.__(___)
 """
 jogo_imagens = [pedra, papel, tesoura]
-escolha = int(input("0 PARA PEDRA, 1 PARA PAPEL, 2 PARA TESOURA"))
+escolha = int(input("0 PARA PEDRA, 1 PARA PAPEL, 2 PARA TESOURA\n"))
 if escolha >=3 and escolha < 0:
     print("NÃO É UM NUMERO VALIDO!")
 else:  
