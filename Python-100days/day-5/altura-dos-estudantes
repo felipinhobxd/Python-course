@@ -1,0 +1,12 @@
+estudantes_altura = input("Digite as alturas, separando cada uma com um espaço (" ")\n").split()
+for n in range(0, len(estudantes_altura)):
+    estudantes_altura[n] = int(estudantes_altura[n])
+soma = 0
+valor_atual = 0
+for i in estudantes_altura:
+    soma += i
+    valor_atual += 1
+media = soma / valor_atual
+print(f"Numero de estudantes: {valor_atual}")
+print(f"Altura somada total: {soma}m")
+print(f"A media das alturas das pessoas são: {media:.2f}m")
